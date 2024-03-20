@@ -40,13 +40,13 @@ node_modules
 # This is the Yarn install state cache, it can be rebuilt anytime
 /.yarn/install-state.gz
 
-# Build directory
 dist/
+
+package.tgz
+
+# next.js output
 .next
+next-env.d.ts
 
-# JetBrains Files
-.idea
-*.iml
-
-# Env
-.env
+# Temp data folder
+.data
