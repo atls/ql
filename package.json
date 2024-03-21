@@ -5,11 +5,23 @@
   "workspaces": [
     "packages/**/*"
   ],
+  "scripts": {
+    "prepare": "husky"
+  },
   "devDependencies": {
-    "@atls/code-service": "^0.0.22",
-    "@types/node": "^20.2.3",
-    "husky": "8.0.3",
-    "typescript": "^5.3.3"
+    "@atls/code-service": "0.1.1",
+    "@atls/prettier-plugin": "0.0.8",
+    "@types/eslint": "^8",
+    "@types/node": "20.11.30",
+    "eslint": "8.57.0",
+    "husky": "9.0.11",
+    "prettier": "3.1.1",
+    "typescript": "5.3.3"
+  },
+  "dependenciesMeta": {
+    "@atls/prettier-plugin@0.0.8": {
+      "unplugged": true
+    }
   },
   "packageManager": "yarn@4.1.1"
 }
