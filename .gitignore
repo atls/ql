@@ -27,6 +27,8 @@ node_modules
 
 # Optional npm cache directory
 .npm
+.vim
+.vscode
 
 # Optional REPL history
 .node_repl_history
@@ -40,13 +42,15 @@ node_modules
 # This is the Yarn install state cache, it can be rebuilt anytime
 /.yarn/install-state.gz
 
+# Build directory
 dist/
-
-package.tgz
-
-# next.js output
 .next
-next-env.d.ts
 
-# Temp data folder
-.data
+# JetBrains Files
+.idea/*
+!.idea/fileTemplates
+!.idea/file.template.settings.xml
+*.iml
+
+# Env
+.env
