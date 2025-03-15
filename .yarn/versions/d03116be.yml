@@ -1,3 +1,2 @@
 releases:
   "@atls/base-types": patch
-  "@atls/query-types": patch
