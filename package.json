@@ -9,11 +9,11 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@atls/code-runtime": "2.1.7",
+    "@atls/raijin": "1.1.1",
     "@types/node": "22.10.2",
     "eslint": "9.17.0",
     "typescript": "5.5.4"
   },
-  "packageManager": "yarn@4.7.0",
+  "packageManager": "yarn@4.18.0",
   "typecheckSkipLibCheck": true
 }
